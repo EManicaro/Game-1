@@ -6,7 +6,7 @@ public class BallController : MonoBehaviour {
 
     float speed = 5f;
 
-    float jumpForce = 500f;
+    float jumpForce = 300f;
 
     Rigidbody2D playerRB;
 
