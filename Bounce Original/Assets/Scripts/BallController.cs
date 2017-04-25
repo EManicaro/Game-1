@@ -6,7 +6,7 @@ public class BallController : MonoBehaviour {
 
     float speed = 5f;
 
-    float jumpForce = 300f;
+    float jumpForce = 250f;
 
     Rigidbody2D playerRB;
 
@@ -59,4 +59,9 @@ public class BallController : MonoBehaviour {
         }
 
      }
+
+    // collide with the star and destory them
+    void OnTriggerEnter2D(Collider2D c)
+    {        if (c.tag == "Star")
+        {            Destroy(c.gameObject);        }    }
 }

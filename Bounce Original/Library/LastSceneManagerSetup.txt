@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Bounce Original.unity
+- path: Assets/Scenes/GameOver Scene.unity
   isLoaded: 1
   isActive: 1
