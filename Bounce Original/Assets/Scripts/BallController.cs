@@ -62,6 +62,12 @@ public class BallController : MonoBehaviour {
 
     // collide with the star and destory them
     void OnTriggerEnter2D(Collider2D c)
-    {        if (c.tag == "Star")
-        {            Destroy(c.gameObject);        }    }
+    {
+
+        if (c.tag == "Star")
+        {
+            Destroy(c.gameObject);
+        }
+
+    }
 }
