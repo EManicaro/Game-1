@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ColliderController : MonoBehaviour {
 
@@ -17,6 +18,11 @@ public class ColliderController : MonoBehaviour {
         {
             transform.position = defaultPos;
             transform.rotation = Quaternion.identity;
+        }
+
+        if (c.tag == "Star")
+        {
+            SceneManager.LoadScene("YouWin Scene");
         }
     }
 }
