@@ -66,7 +66,7 @@ public class BallController : MonoBehaviour {
                 //adjust the life on canvas
                 lifeText.text = "Lives: " + playerLives;
 
-                // show us the score in the console (Ctrl + Shift + C in Unity
+                // show us the lives in the console (Ctrl + Shift + C in Unity
                 Debug.Log(playerLives);
             }
 

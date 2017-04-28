@@ -508,7 +508,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 122802025}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 839500639}
+        m_MethodName: NewGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &122802025
@@ -2292,6 +2303,7 @@ GameObject:
   - component: {fileID: 839500637}
   - component: {fileID: 839500636}
   - component: {fileID: 839500635}
+  - component: {fileID: 839500639}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2374,6 +2386,17 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &839500639
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 839500634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 980fb5f1cbc02b0408a3f74440b9a68f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &859429868
 GameObject:
   m_ObjectHideFlags: 0
