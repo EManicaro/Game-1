@@ -52,7 +52,7 @@ public class BallController : MonoBehaviour {
         }
     }
 
-    // when the player disappears, resst him
+    // when the player disappears, reset him
     void OnBecameInvisible()
     {
         // when lives are greater then 0 minus 1, less then 0 gameover
@@ -80,9 +80,9 @@ public class BallController : MonoBehaviour {
         transform.rotation = Quaternion.identity;
     }
 
+    // this is used to move the character
     void Move(float h)
     {
-
         //refer to the current physics movement
         Vector2 movement = playerRB.velocity;
         movement.x = h * speed;
@@ -90,24 +90,6 @@ public class BallController : MonoBehaviour {
         // make the charcater move
         playerRB.velocity = movement;
 
-        // check that the player is looking in the direction he's moving
-        if ((h < 0f && !spriteRenderer.flipX) || (h > 0f && spriteRenderer.flipX))
-        {
-
-            spriteRenderer.flipX = !spriteRenderer.flipX;
-
-        }
-
      }
 
-    // collide with the star and destory them
-    void OnTriggerEnter2D(Collider2D c)
-    {
-
-        if (c.tag == "Star")
-        {
-            Destroy(c.gameObject);
-        }
-
-    }
 }

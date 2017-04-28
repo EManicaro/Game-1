@@ -24,7 +24,7 @@ public class CameraFollow : MonoBehaviour {
     // move the camera according to physics
     void FixedUpdate()
     {
-
+        // camera is fixed with the platform, it just moves left and right
         Vector3 targetPos = followObject.position + offset;
         transform.position = new Vector3(Mathf.Lerp (transform.position.x, targetPos.x, smoothing * Time.deltaTime), transform.position.y, transform.position.z);
 
