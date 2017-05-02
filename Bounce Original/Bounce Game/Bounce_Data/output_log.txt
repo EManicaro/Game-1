@@ -1,0 +1,77 @@
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce 840M   (ID=0x1341)
+    Vendor:   NVIDIA
+    VRAM:     1948 MB
+    Driver:   10.18.10.3939
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Enrico\Desktop\School 2016-17\Semester 2\Game Engines\Games\Game-1\Bounce Original\Bounce Game\Bounce_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Enrico\Desktop\School 2016-17\Semester 2\Game Engines\Games\Game-1\Bounce Original\Bounce Game\Bounce_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Enrico\Desktop\School 2016-17\Semester 2\Game Engines\Games\Game-1\Bounce Original\Bounce Game\Bounce_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Enrico\Desktop\School 2016-17\Semester 2\Game Engines\Games\Game-1\Bounce Original\Bounce Game\Bounce_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Enrico\Desktop\School 2016-17\Semester 2\Game Engines\Games\Game-1\Bounce Original\Bounce Game\Bounce_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Enrico\Desktop\School 2016-17\Semester 2\Game Engines\Games\Game-1\Bounce Original\Bounce Game\Bounce_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Enrico\Desktop\School 2016-17\Semester 2\Game Engines\Games\Game-1\Bounce Original\Bounce Game\Bounce_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Enrico\Desktop\School 2016-17\Semester 2\Game Engines\Games\Game-1\Bounce Original\Bounce Game\Bounce_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Enrico\Desktop\School 2016-17\Semester 2\Game Engines\Games\Game-1\Bounce Original\Bounce Game\Bounce_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Enrico\Desktop\School 2016-17\Semester 2\Game Engines\Games\Game-1\Bounce Original\Bounce Game\Bounce_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.034 seconds
+Platform assembly: C:\Users\Enrico\Desktop\School 2016-17\Semester 2\Game Engines\Games\Game-1\Bounce Original\Bounce Game\Bounce_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Enrico\Desktop\School 2016-17\Semester 2\Game Engines\Games\Game-1\Bounce Original\Bounce Game\Bounce_Data\Managed\System.dll (this message is harmless)
+desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
+<RI> Initializing input.
+XInput1_3.dll not found. Trying XInput9_1_0.dll instead...
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 1.374909 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 8.403411 ms
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1331.
+Total: 0.389165 ms (FindLiveObjects: 0.075694 ms CreateObjectMapping: 0.026086 ms MarkObjects: 0.268139 ms  DeleteObjects: 0.011546 ms)
+
+2
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+1
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 3.468705 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 464.
+Total: 0.446898 ms (FindLiveObjects: 0.076550 ms CreateObjectMapping: 0.053029 ms MarkObjects: 0.297219 ms  DeleteObjects: 0.018389 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.393014 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1331.
+Total: 0.341695 ms (FindLiveObjects: 0.059016 ms CreateObjectMapping: 0.025231 ms MarkObjects: 0.247611 ms  DeleteObjects: 0.009408 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.975907 ms
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 427.
+Total: 0.226656 ms (FindLiveObjects: 0.023948 ms CreateObjectMapping: 0.018816 ms MarkObjects: 0.174055 ms  DeleteObjects: 0.008980 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.598716 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 1331.
+Total: 0.309194 ms (FindLiveObjects: 0.055595 ms CreateObjectMapping: 0.025659 ms MarkObjects: 0.218959 ms  DeleteObjects: 0.008553 ms)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 588 -> priority: 1 
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Behaviour:get_isActiveAndEnabled ()
+  at UnityEngine.EventSystems.UIBehaviour.IsActive () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Graphic.SetVerticesDirty () [0x00000] in <filename unknown>:0 
+  at UnityEngine.UI.Text.set_text (System.String value) [0x00000] in <filename unknown>:0 
+  at BallController.OnBecameInvisible () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
